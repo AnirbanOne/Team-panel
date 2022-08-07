@@ -1,0 +1,78 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #F6F6F6;
+  font-weight: 300;
+  background-color: black;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #fff;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #D1D1D1;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color: #fff;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #00FFC6;
+}
+
+.image{
+  width: 75%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image1{
+  width: 80%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image2{
+  width: 80%;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.card{
+  /* box-shadow: 0px 5px 12px ; */
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  background-color: black!important;
+}
+
+.abc{
+  background-color: black;
+}
+
+.card:hover {
+  background-color: black;
+  box-shadow: 0px 15px 25px   rgba(21,230,181,1);
+  color: #fff;
+  transform: translateY(-7px);
+}
